@@ -1,7 +1,7 @@
 .body {
     font-family: "Kobe1.1";
 }
-.inline-block {
+.navigationbar {
     background-color:#D4D4D4;
     vertical-align: baseline;
     display: inline-block;
@@ -16,11 +16,15 @@ li {
 }
 
 .heroImg {
+    display: flex;
     background-color: white;
-    width: 300px;
-    outline-style: outset;
-    padding: 50px;
-    margin: 20px;
+    width: 600px;
+    padding: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 4px 4px 6px lightgray, -4px -4px 6px lightgray;
 }
 
 h1 {
@@ -32,9 +36,16 @@ h2 {
 p {
     text-align: center;
 }
-.button {
-    color: darkgreen;
-}
+
 .buttongrid{
-    display: grid;
+    margin: 100px auto;
+    width:1200px;
+    height:1200px;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    grid-column-gap: 200px;
+    grid-row-gap: 200px;
+    justify-content: center;
 }
