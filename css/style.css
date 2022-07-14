@@ -1,5 +1,9 @@
-body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+@font-face {
+    font-family: Kobe;
+    src: url(../Kobe/kobe11-regular.ttf) format('truetype')
+}
+html {
+    font-family: Kobe;
 }
 .navigationbar {
     background-color:#8CB29D;
@@ -13,6 +17,8 @@ li {
     display: inline;
     float: right;
     padding: 10px;
+    font-family: Kobe;
+    font-size: 20px;
 }
 
 .heroImg {
@@ -33,15 +39,19 @@ li {
 }
 .bio {
     text-align: center;
+    font-family: Kobe;
 }
 h1 {
     text-align: center;
+    font-family: Kobe;
 }
 h2 {
     text-align: center;
+    font-family: Kobe;
 }
 p {
     text-align: center;
+    font-family: Kobe;
 }
 
 .buttongrid{
@@ -58,4 +68,5 @@ p {
 }
 button {
     font-size: 24px;
+    font-family: Kobe;
 }
