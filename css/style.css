@@ -54,3 +54,6 @@ p {
     grid-row-gap: 200px;
     justify-content: center;
 }
+button {
+    font-size: 24px;
+}
