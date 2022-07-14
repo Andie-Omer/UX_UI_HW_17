@@ -14,7 +14,7 @@ li {
 }
 
 .heroImg {
-    display: flex;
+    display: grid;
     background-color: white;
     width: 600px;
     padding: 100px;
@@ -24,7 +24,14 @@ li {
     margin-bottom: 50px;
     box-shadow: 4px 4px 6px lightgray, -4px -4px 6px lightgray;
 }
-
+.image {
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bio {
+    text-align: center;
+}
 h1 {
     text-align: center;
 }
