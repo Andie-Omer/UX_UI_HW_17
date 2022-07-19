@@ -21,6 +21,19 @@ li {
     font-size: 20px;
 }
 
+.Contactme:hover {
+    color: #F3F1E0;
+}
+.UInav:hover {
+    color: #F3F1E0
+}
+.CaseStudy:hover {
+    color: #F3F1E0
+}
+.home:hover {
+    color: #F3F1E0
+}
+
 .heroImg {
     display: grid;
     background-color: white;
@@ -65,8 +78,52 @@ p {
     grid-column-gap: 200px;
     grid-row-gap: 200px;
     justify-content: center;
+    
 }
 button {
-    font-size: 24px;
+    font-size: 36px;
     font-family: Kobe;
+}
+.button1 {
+    background-image: url(../Images/ANE1.png);
+    background-size: 399px 399px;
+    background-position: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px dimgray;
+}
+.button1:hover {
+    box-shadow: 5px 5px 7px silver, -5px -5px 7px silver;
+}
+
+.button2 {
+    background-image: url(../Images/DOE1.jpg);
+    background-size: auto auto;
+    color: black;
+    text-shadow: 2px 2px dimgray;
+    
+}
+
+.button2:hover {
+    box-shadow: 5px 5px 7px silver, -5px -5px 7px silver;
+}
+
+.button3 {
+    background-image: url(../Images/BF1.png);
+    background-size: 350px 350px;
+    background-position: right -12px top;
+}
+
+.button3:hover {
+    box-shadow: 5px 5px 7px silver, -5px -5px 7px silver;
+}
+.button4 {
+    background-image: url(..//Images/Button4.png);
+    background-position: center;
+    background-size: auto auto;
+    color: black;
+    text-shadow: 2px 2px dimgray;
+}
+
+.button4:hover {
+    box-shadow: 5px 5px 7px silver, -5px -5px 7px silver;
 }
